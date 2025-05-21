@@ -13,3 +13,6 @@ class AlienInvasion:
                 if event.type == pygame.QUIT:
                     sys.exit()
             pygame.display.flip()
+if __name__ == '__main__':
+    ai = AlienInvasion()
+    ai.run_game()
